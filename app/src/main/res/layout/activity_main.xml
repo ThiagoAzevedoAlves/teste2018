@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/back"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/sp20"
+        android:textColor="@color/aWhite"
+        android:text="@string/title"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/dp16"
+        />
+
+    <TextView
+        android:id="@+id/nocontent"
+        android:visibility="invisible"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/sp40"
+        android:textColor="@color/aWhite"
+        android:text="@string/no_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        />
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/gridView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="@dimen/dp56"
+            android:layout_marginBottom="@dimen/dp56"
+            android:layout_marginStart="@dimen/dp16"
+            android:layout_marginEnd="@dimen/dp16"
+            android:horizontalSpacing="@dimen/dp8"
+            android:verticalSpacing="@dimen/dp8"
+            android:numColumns="2"
+            android:minHeight="@dimen/dp200"
+            android:columnWidth="@dimen/dp200"
+            android:stretchMode="columnWidth"
+            >
+        </android.support.v7.widget.RecyclerView>
+
+        <com.luseen.spacenavigation.SpaceNavigationView
+            android:id="@+id/space"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentBottom="true"
+            android:layout_gravity="bottom"
+            android:gravity="center"
+            android:textAlignment="center"
+            app:active_centre_button_icon_color="@color/white"
+            app:active_item_color="@color/aPurple"
+            app:centre_button_color="@color/aPurple"
+            app:centre_button_icon="@drawable/ic_search"
+            app:inactive_centre_button_icon_color="@color/white"
+            app:inactive_item_color="@color/aPurple"
+            app:space_background_color="@color/white"
+            app:space_item_text_size="@dimen/textsize_18" />
+
+    </RelativeLayout>
