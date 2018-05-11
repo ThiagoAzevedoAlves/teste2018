@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">teste2018</string>
+    <string name="search">Buscar</string>
+    <string name="details">Detalhes</string>
+    <string name="tmdb_key_v3">3ec6cb849c930e97e99a6c7ce638c4d1</string>
+    <string name="tmdb_token_v4">eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJhdWQiOiIzZWM2Y2I4NDljOTMwZTk3ZTk5YTZjN2NlNjM4YzRkMSIsInN1YiI6IjVhZTIwMmNhYzNhMzY4NzY3ZTAxNWFjMyIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.0IbbOdO-CbO2Z3MqHcwPYMJUXvJDgGs2MLukiYPBEbc</string>
+    <string name="title">Teste 2018</string>
+    <string name="no_content">Sem Conteúdo</string>
+
+</resources>
